@@ -1,4 +1,7 @@
-yeomint
+Yeomint
 =======
 
-Web Interface for yeoman (yeoman.io)
+Web Interface for [yeoman](http://yeoman.io)
+
+
+
