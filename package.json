@@ -3,8 +3,14 @@
   "version": "0.0.1",
   "description": "Web interface for running Yeoman generators",
   "author": "Jody Lognoul",
-  "repository": "Narcotic/yeomint",
+  "repository": "narcotic/yeomint",
   "dependencies": {
-    
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "open": "0.0.5",
+    "is-root": "^0.1.0",
+    "sudo-block": "^0.4.0",
+    "nopt": "^3.0.0",
+    "yeoman-generator": "^0.17.1"
   }
 }
