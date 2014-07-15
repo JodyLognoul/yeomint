@@ -1,0 +1,2071 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"cons",
+				"cons	consolelog"
+			],
+			[
+				"comm",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"comme",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"come",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"co",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"comment",
+				"comm-section-header	Comment - Section header comment"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"eg",
+				"eg-navbar-main"
+			],
+			[
+				"eve",
+				"eventId"
+			],
+			[
+				"col",
+				"col-pics"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"A",
+				"App"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"dis",
+				"disc"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bowe",
+				"bower_components"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"colo",
+				"color_arrow"
+			],
+			[
+				"tit",
+				"titles"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"init",
+				"initDotsMenu"
+			],
+			[
+				"j",
+				"jq-boilerplate-min	jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"pa",
+				"pagesCount"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"func",
+				"func	function-js"
+			],
+			[
+				"jq",
+				"jq-boilerplate	jQuery Plugin Boilerplate"
+			],
+			[
+				"cur",
+				"currPage"
+			],
+			[
+				"curr",
+				"currentElement"
+			],
+			[
+				"gr",
+				"green"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"go",
+				"gotoPage"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padin",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"style",
+				"styles"
+			],
+			[
+				"def",
+				"defaultSort"
+			],
+			[
+				"appe",
+				"appendViewActiveFilterSorting"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"ot",
+				"options"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"y",
+				"yield"
+			],
+			[
+				"map",
+				"mapbox"
+			],
+			[
+				"remove",
+				"removeViewProgressbar"
+			],
+			[
+				"app",
+				"appendViewProgressbar"
+			],
+			[
+				"View",
+				"ViewProgressbar"
+			],
+			[
+				"Pr",
+				"progressbarView"
+			],
+			[
+				"progre",
+				"progressbar"
+			],
+			[
+				"ac",
+				"activeFilterSortingView"
+			],
+			[
+				"event",
+				"eventdate"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"fil",
+				"filteredEventsCollection"
+			],
+			[
+				"sort",
+				"sort"
+			],
+			[
+				"dat",
+				"datePickerAction"
+			],
+			[
+				"cu",
+				"current_date"
+			],
+			[
+				"ev",
+				"evDatePicker"
+			],
+			[
+				"ini",
+				"initDatePicker"
+			],
+			[
+				"routes",
+				"routesUrl"
+			],
+			[
+				"de",
+				"defaultRoute"
+			],
+			[
+				"max",
+				"max_place"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"index",
+				"indexRoute"
+			],
+			[
+				"HTML-s",
+				"HTML-script	HTML-script"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"URL",
+				"URL-route	URL-route"
+			],
+			[
+				"if",
+				"if	blade-if"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"Sc",
+				"Schema-drop	Schema-drop"
+			],
+			[
+				"while",
+				"while	while …"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"INput",
+				"Input-file	Input-file"
+			],
+			[
+				"Form",
+				"Form-file	Form-file"
+			],
+			[
+				"picture",
+				"picture-0"
+			],
+			[
+				"input",
+				"inputs"
+			],
+			[
+				"a",
+				"attachTo"
+			],
+			[
+				"att",
+				"attachTo"
+			],
+			[
+				"pro",
+				"proxy"
+			],
+			[
+				"plus",
+				"plusElemClass"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"ta",
+				"targetClass"
+			],
+			[
+				"tar",
+				"target"
+			],
+			[
+				"append",
+				"appendPlusElem"
+			],
+			[
+				"row",
+				"rowClass"
+			],
+			[
+				"new",
+				"newElem"
+			],
+			[
+				"ele",
+				"elem"
+			],
+			[
+				"idd",
+				"middle"
+			],
+			[
+				"img",
+				"imgClass"
+			],
+			[
+				"get",
+				"getOptions"
+			],
+			[
+				"In",
+				"InputPicturePreview"
+			],
+			[
+				"Input",
+				"Input-all	Input-all"
+			],
+			[
+				"Forn",
+				"Form-open	Form-open"
+			],
+			[
+				"HTML",
+				"HTML-image	HTML-image"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"Noti",
+				"Notify"
+			],
+			[
+				"Not",
+				"Notification"
+			],
+			[
+				"noti",
+				"notification"
+			],
+			[
+				"notic",
+				"notification"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"part",
+				"party"
+			],
+			[
+				"com",
+				"compact"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"Request",
+				"Request-is	Request-is"
+			],
+			[
+				"Requ",
+				"Request-cookie	Request-cookie"
+			],
+			[
+				"Red",
+				"Redirect-route	Redirect-route"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"Re",
+				"Redirect-route	Redirect-route"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"par",
+				"party_id"
+			],
+			[
+				"bo",
+				"border-top-right-radius"
+			],
+			[
+				"HTM",
+				"HTML-image	HTML-image"
+			],
+			[
+				"Inp",
+				"Input-all	Input-all"
+			],
+			[
+				"Shema",
+				"Schema-drop	Schema-drop"
+			],
+			[
+				"Form-",
+				"Form-selectYear	Form-selectYear"
+			],
+			[
+				"Form-t",
+				"Form-textarea	Form-textarea"
+			],
+			[
+				"Redi",
+				"Redirect-route	Redirect-route"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"so",
+				"Sort Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"browse",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"browser",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pyt",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"brower",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"brow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"prew",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"bro",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"user",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"choo",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"linte",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdow pre",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"mar",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"mark",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"marke",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pat",
+				"File: Copy Path From Project"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"path",
+				"File: Copy Path From Project"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"cop",
+				"File: Copy Path From Project Encoded"
+			],
+			[
+				"subl",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"su",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"capi",
+				"Snippet: text-transform:capitalize"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"da",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lore",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"lo",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"rien",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"copy",
+				"File: Copy Path From Project"
+			],
+			[
+				"cop na",
+				"File: Copy Name"
+			],
+			[
+				"white",
+				"Highlight Whitespaces: Toggle"
+			],
+			[
+				"cons",
+				"Snippet: consolelog"
+			],
+			[
+				"sni",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"snipper edit",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"font",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"comme",
+				"Toggle Block Comment"
+			],
+			[
+				"toggle",
+				"Bookmarks: Toggle"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"dashs",
+				"DashDoc: invoke Dash with selected word (syntax-sensitive)"
+			],
+			[
+				"dah",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"art route",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"route",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"artisan routes",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"REIN",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reidn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"SassBeautify",
+				"SassBeautify"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"next col",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"v",
+				"View: Toggle Minimap"
+			],
+			[
+				"colorpre",
+				"ColorSchemeSelector: Previous Color Scheme"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"lor",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"sublimeLint",
+				"Preferences: SublimeLint – Default"
+			],
+			[
+				"sublielint ",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLint: Next Error"
+			],
+			[
+				"sass ",
+				"Set Syntax: Sass"
+			],
+			[
+				"Snippet: tag",
+				"Snippet: endtag"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"gist cre",
+				"Gist: Create Private Gist"
+			],
+			[
+				"gist ",
+				"Gist: Open Gist"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"con ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"create",
+				"Gist: Create Private Gist"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indentation",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"send to ",
+				"Send to evernote"
+			],
+			[
+				"evernote",
+				"Evernote Settings"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inste",
+				"Package Control: Install Package"
+			],
+			[
+				"ope",
+				"Gist: Open Gist"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"sni jqu",
+				"Snippet: jQuery on handler"
+			],
+			[
+				"snip jque",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"sni jquer",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"sy ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Pro",
+				"Project: Add Folder"
+			],
+			[
+				"add pr",
+				"Package Control: Add Repository"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"symfony",
+				"Snippet: Symfony2 / Controller / Get Entity Manager"
+			],
+			[
+				"css",
+				"Snippet: CSS - :active"
+			],
+			[
+				"giest",
+				"Gist: Open Gist"
+			],
+			[
+				"for",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			]
+		],
+		"width": 655.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jody/Documents/Work/Ksv/Facebook albums",
+		"/private/var/www/dev/emberio/app/scripts/routes/events_route.js",
+		"/private/var/www/dev/emberio/app/scripts/adapters/application_adapter.js",
+		"/private/var/www/dev/emberio/app/index.html",
+		"/private/var/www/dev/emberio/app/templates/events/index.hbs",
+		"/private/var/www/dev/emberio/app/scripts/models/event_model.js",
+		"/private/var/www/dev/emberio/README.md",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js",
+		"/private/var/www/dev/emberio/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/methodOverride.js",
+		"/private/var/www/dev/emberio/app/templates/me.hbs",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/event.js",
+		"/private/var/www/dev/emberio/app/templates/event.hbs",
+		"/private/var/www/dev/emberio/app/scripts/app.js",
+		"/private/var/www/dev/emberio/emberio.sublime-project",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/private/var/www/dev/emberio/app/scripts/routes/event_route.js",
+		"/private/var/www/dev/emberio/app/templates/error.hbs",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth-devise.js",
+		"/private/var/www/dev/emberio/app/templates/application.hbs",
+		"/private/var/www/dev/emberio/app/templates/event/map.hbs",
+		"/private/var/www/dev/emberio/bower_components/ember/ember-template-compiler.js",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/traversing.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLrouter.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/posts.js",
+		"/private/var/www/dev/emberio/app/templates/posts.hbs",
+		"/private/var/www/dev/emberio/app/scripts/routes/posts.js",
+		"/private/var/www/dev/emberio/app/scripts/routes/events.js",
+		"/private/var/www/dev/emberio/app/scripts/router.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/home.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/event.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/events.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/auth_login.js",
+		"/private/var/www/dev/emberio/app/scripts/LOLroutes/application.js",
+		"/private/var/www/dev/emberio/app/scripts/adapters/application.js",
+		"/private/var/www/dev/emberio/app/scripts/routes/application.js",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/var/concat.js",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/CONTRIBUTING.md",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/composer.json",
+		"/private/var/www/dev/emberio/app/scripts/authenticators/custom.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth.js",
+		"/private/var/www/dev/emberio/app/scripts/initializers/application.js",
+		"/private/var/www/dev/emberio/app/scripts/initializers/simple-auth.js",
+		"/private/var/www/dev/emberio/app/scripts/adapters/event.js",
+		"/private/var/www/dev/emberio/app/templates/events.hbs",
+		"/private/var/www/dev/emberio/app/scripts/routes/event.js",
+		"/private/var/www/dev/emberio/app/templates/event/index.hbs",
+		"/private/var/www/dev/emberio/app/scripts/components/x-navbar.js",
+		"/private/var/www/dev/emberio/app/templates/components/x-navbar-bottom.hbs",
+		"/private/var/www/dev/emberio/app/styles/general.sass",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/manipulation.js",
+		"/private/var/www/dev/emberio/dist/scripts/9b68b39a.main.js",
+		"/private/var/www/dev/emberio/app/scripts/views/navbar.js",
+		"/private/var/www/dev/emberio/app/templates/views/navbar.hbs",
+		"/private/var/www/dev/emberio/Gruntfile.js",
+		"/private/var/www/dev/emberio/bower.json",
+		"/private/var/www/dev/emberio/app/templates/components/x-navbar.hbs",
+		"/private/var/www/dev/emberio/bower_components/ember-topcoat-components/src/scripts/components/navigation-bar.js",
+		"/private/var/www/dev/emberio/app/styles/_navbars.sass",
+		"/private/var/www/dev/emberio/app/styles/auth.sass",
+		"/private/var/www/dev/emberio/app/styles/events.sass",
+		"/private/var/www/dev/emberio/bower_components/ember-topcoat-components/demo/index.html",
+		"/private/var/www/dev/emberio/app/scripts/components/x-navbar.hbs",
+		"/private/var/www/dev/emberio/app/templates/auth.hbs",
+		"/private/var/www/dev/emberio/app/robots.txt",
+		"/private/var/www/dev/emberio/app/scripts/authenticators/test.js",
+		"/private/var/www/dev/emberio/git_push.sh",
+		"/private/var/www/dev/emberio/gitcommit.sh",
+		"/private/var/www/dev/emberio/app/scripts/authorizers/custom.js",
+		"/private/var/www/dev/emberio/app/scripts/templates.js",
+		"/Users/jody/Desktop/Markdown Cheatsheet.md",
+		"/private/var/www/dev/emberio/app/scripts/oldmain.js",
+		"/private/var/www/dev/emberio/app/scripts/main.js",
+		"/private/var/www/dev/emberio/app/scripts/routes/auth_login.js",
+		"/private/var/www/dev/emberio/app/scripts/routes/home.js",
+		"/private/var/www/dev/emberio/app/scripts/controllers/auth_login.js",
+		"/private/var/www/dev/emberio/app/styles/_settings.sass",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/CHANGELOG.md",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth-cookie-store.js",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/core/init.js",
+		"/private/var/www/dev/emberio/package.json",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/private/var/www/dev/emberio/bower_components/normalize-css/normalize.css",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_nav-divider.scss",
+		"/private/var/www/dev/emberio/.bowerrc",
+		"/private/var/www/dev/emberio/app/templates/auth/error.hbs",
+		"/private/var/www/dev/emberio/app/templates/auth/login.hbs",
+		"/private/var/www/dev/emberio/bower_components/handlebars/handlebars.js",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth-oauth2.js",
+		"/private/var/www/dev/emberio/bower_components/ember/README.md",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_pagination.scss",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss",
+		"/private/var/www/dev/emberio/bower_components/fontawesome/less/larger.less",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/ajax/load.js",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/intro.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/ember-simple-auth-oauth2.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/ember-simple-auth.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/ember-simple-auth-devise.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/ember-simple-auth-cookie-store.js",
+		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/amd/ember-simple-auth-oauth2.js",
+		"/private/var/www/dev/emberio/app/templates/events/map.hbs",
+		"/private/var/www/dev/emberio/app/templates/main.hbs",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/LICENSE",
+		"/private/var/www/dev/emberio/app/styles/_variables.sass",
+		"/private/var/www/dev/emberio/app/styles/navbars.sass",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/attributes/val.js",
+		"/private/var/www/dev/emberio/bower_components/fontawesome/less/variables.less",
+		"/private/var/www/dev/emberio/app/styles/_mixins.sass",
+		"/private/var/www/dev/emberio/app/styles/main.sass",
+		"/private/var/www/dev/emberio/app/templates/main/events.hbs",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_media.scss",
+		"/private/var/www/dev/emberio/app/templates/event/members.hbs",
+		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_navbar.scss",
+		"/private/var/www/dev/emberio/bower_components/fontawesome/less/mixins.less",
+		"/private/var/www/dev/emberio/app/templates/me/index.hbs",
+		"/private/var/www/dev/emberio/app/templates/event/new.hbs",
+		"/private/var/www/dev/emberio/app/templates/me/events.hbs",
+		"/private/var/www/dev/emberio/app/templates/event/chat.hbs",
+		"/private/var/www/dev/emberio/app/templates/event/join.hbs",
+		"/private/var/www/dev/emberio/app/templates/events/error.hbs",
+		"/private/var/www/dev/emberio/bower_components/jquery/src/core/access.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/private/var/www/dev/emberio/bower_components/ember-simple-auth",
+			"/private/var/www/dev/emberio",
+			"/private/var/www/dev/emberio/bower_components/ember-simple-auth",
+			"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap",
+			"/private/var/www/dev/me.egam.io/app",
+			"/private/var/www/dev/me.egam.io",
+			"/private/var/www/dev/gg-mobile-first",
+			"/private/var/www/dev/gg-mobile-first/app",
+			"/private/var/www/dev/gg-mobile-first",
+			"/private/var/www/dev/gg-mobile-first/app",
+			"/private/var/www/dev/gg-mobile-first/app/models",
+			"/private/var/www/dev/gg-mobile-first/app/database",
+			"/private/var/www/dev/gg-mobile-first",
+			"/private/var/www/dev/ksvwebsite",
+			"/private/var/www/dev/ksvwebsite/wp-content",
+			"/private/var/www/dev/ksvwebsite/wp-content/plugins/woocommerce/templates",
+			"/private/var/www/dev/ksvwebsite/wp-content",
+			"/private/var/www/dev/ksvwebsite",
+			"/private/var/www/dev/ksvwebsite/wp-content",
+			"/private/var/www/dev/ksvwebsite",
+			"<project>",
+			"/private/var/www/dev/ksvwebsite",
+			"/Users/jody/Desktop/BACKUP-ksvwebsite",
+			"/Volumes/192.168.2.101/wp-content",
+			"/var/www/dev/ksvwebsite/wp-content/plugins/easy-wordpress-donations",
+			"<project>",
+			"/var/www/dev/ksvwebsite",
+			"/var/www/dev/ksvwebsite/wp-content/themes/DonateNow",
+			"/var/www/dev/ksvwebsite",
+			"/var/www/dev/ksvwebsite/wp-content",
+			"/var/www/dev/ksvwebsite/wp-content/themes/DonateNow",
+			"/var/www/dev/ksvwebsite/wp-content",
+			"/var/www/dev/ksvwebsite/wp-content/themes/DonateNow",
+			"/var/www/dev/ksvwebsite/wp-content",
+			"/var/www/dev/ksvwebsite/wp-content/themes/DonateNow",
+			"<project>",
+			"/var/www/dev/laravel/public",
+			"/home/jody/Bureau/xml",
+			"<project>",
+			"/var/www/dev/laravel/public",
+			"<project>,/home/jody/Bureau/advanced-backbone-patterns-and-techniques/advanced-backbone-patterns-and-techniques-master",
+			"<project>",
+			"/var/www/dev/laravel/public",
+			"laravel/public",
+			"<project>",
+			"/var/www/dev/laravel/bundles/oneauth",
+			"/var/www/dev/laravel/bundles/bundocs",
+			"<project>",
+			"/var/www/dev/laravel/bundles/oneauth",
+			"<project>",
+			"/var/www/dev/laravel",
+			"/home/jody/Bureau/ftp/nayax",
+			"<project>",
+			"/home/jody/Bureau/ftp/nayax",
+			"http://nayax.ch",
+			"/home/jody/www/dev/gg-new",
+			"/var/www/nayax",
+			"/var/www/nayax/wp-content/themes",
+			"/var/www/nayax",
+			"/var/www/nayax/wp-content/themes/nexus-1.0.2",
+			"/var/www/sf2card/src",
+			"/var/www/sf2card/vendor",
+			"/var/www/sf2card/src/Ca/CardBundle",
+			"/var/www/sf2card/vendor",
+			"/var/www/nayax",
+			"/var/www/sf2card",
+			"/var/www/nayax",
+			"/var/www/nayax/wp-content/themes/nexus-1.0.2",
+			"/var/www/nayax/wp-content/themes/nexus-1.0.2/nexus",
+			"/home/jody/Bureau/cdv",
+			"/home/jody/cdv",
+			"/home/jody/Bureau/efolio",
+			"/home/jody/.gvfs/FTP sur www.afacard.ch en tant que admin/cdv",
+			"/var/www/nayax/wp-content/themes/nexus-1.0.2",
+			"/var/www/sf2gg"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Zayed Future Energy Prize 2014",
+			"Zayed Future Energy Prize - Abu Dhabi",
+			"The Volunteers",
+			"The Staff",
+			"The School",
+			"The Olympics",
+			"The Music",
+			"The Festivals",
+			"The Dance",
+			"Snakes at KSV",
+			"Shivaratri - 2014",
+			"Saugaat with Mir Mukhtiyar Ali",
+			"Recording at All India Radio",
+			"Our Partners",
+			"Our Guests",
+			"Our Concerts",
+			"New Equipment Donated by The Rotary Club",
+			"Music Workshops with Dr Revati Kamat & Shri Bharat Kamat",
+			"Mumbai - June 2013",
+			"Mumbai - June 2012",
+			"Library in a Classroom from Pratham Books",
+			"KSV in Bangalore - August 2013",
+			"KSV Classroom Signs",
+			"&type=3",
+			"https:/",
+			"Jagriti Yatra at KSV",
+			"https://",
+			"Jagriti",
+			"	",
+			": ",
+			"h2",
+			"adapter",
+			"{{",
+			"\"",
+			"> {",
+			" ",
+			"\"",
+			"templateBase",
+			"templateBasePath",
+			"emberTemplates",
+			"(.tmp)",
+			".tmp",
+			"concat",
+			"jshin",
+			"jshiny",
+			"ates.",
+			"js",
+			"templates.js",
+			"emberTemplates",
+			"tmp",
+			"emberTemplates",
+			"- ",
+			"App.",
+			"authenticator",
+			"Authenticator",
+			"authenticator",
+			"Authenticator",
+			"authenticator",
+			"OAuth2",
+			"CustomAuthenticator",
+			"\"",
+			"initializer",
+			"  DONE -",
+			"YoEmber",
+			"yeoman",
+			"neuter",
+			"this.get",
+			"cons",
+			"account",
+			"session.",
+			"session",
+			"Base",
+			"console",
+			"---",
+			"<",
+			"LOL",
+			"response",
+			"connec",
+			"server",
+			"brow",
+			"OAuth2",
+			"Factory",
+			"authenticatorFactory",
+			"ember.route",
+			"autho",
+			"session.isAuthenticated",
+			"authenticate(",
+			"authenticate",
+			"authenticateSession",
+			"this.get('session'",
+			"http://local.egam.io/api/event",
+			"reject",
+			"requestOptions",
+			"Factory",
+			"routeAfterAuthentication",
+			"index",
+			"index ",
+			"index",
+			"serverTokenEndpoint",
+			"Endpoint",
+			"okenEndpoint",
+			"serverToken",
+			"serverTokenEnd",
+			"serverTokenEndpoint",
+			"LoginControllerMixin",
+			"AuthLoginController",
+			"authenticate ",
+			"authenticate",
+			"authenticate action",
+			"action 'authenticate ",
+			"action authenticate ",
+			"authenticate ",
+			"authenticate",
+			"SimpleAuth",
+			"simple-auth/authenticators/base",
+			"Base",
+			"authenticationRoute",
+			"simple-auth/utils/get-global-config",
+			"get-global-config",
+			"getGlobalConfig",
+			"authenticationRoute",
+			"config",
+			"SimpleAuth",
+			"export",
+			"Ember.SimpleAuth.AuthenticatedRouteMixin",
+			"ApplicationRouteMixin",
+			"/ember-",
+			"ember-"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"lorem8",
+			"img",
+			"p",
+			"        \n",
+			"http://www2.ksv.org.in",
+			"ksv.local",
+			"\"",
+			"$2",
+			"123",
+			"cccccccccccccccccccccc",
+			"/s",
+			"$2",
+			"$0",
+			"$3",
+			"$1",
+			"$2",
+			"$1",
+			"function",
+			"http://themergency.com/footable-demo/images/",
+			"",
+			"\\\"",
+			"#D84C2C",
+			"white-text",
+			"",
+			"<h2 class=\"h2\">",
+			"\"",
+			"'",
+			"http://nayax.ch",
+			"#",
+			"local",
+			"Name\nName",
+			"correspondance",
+			"nb-etiquette"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"project": "yeomint.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"modeleve",
+				"app/scripts/models/event_model.js"
+			],
+			[
+				"eventsjs",
+				"app/scripts/routes/events_route.js"
+			],
+			[
+				"app.js",
+				"app/scripts/app.js"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"routeevet",
+				"app/scripts/routes/events_route.js"
+			],
+			[
+				"ada",
+				"app/scripts/adapters/application_adapter.js"
+			],
+			[
+				"temapp",
+				"app/templates/application.hbs"
+			],
+			[
+				"aut",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"a",
+				"app/scripts/app.js"
+			],
+			[
+				"events",
+				"app/scripts/routes/events.js"
+			],
+			[
+				"routeevents",
+				"app/scripts/routes/events.js"
+			],
+			[
+				"xn",
+				"app/templates/components/x-navbar-bottom.hbs"
+			],
+			[
+				"event",
+				"app/templates/event.hbs"
+			],
+			[
+				"eveninde",
+				"app/templates/event/index.hbs"
+			],
+			[
+				"eventinde",
+				"app/templates/events/index.hbs"
+			],
+			[
+				"event.js",
+				"app/scripts/routes/event.js"
+			],
+			[
+				"gener",
+				"app/styles/general.sass"
+			],
+			[
+				"event.",
+				"app/templates/event.hbs"
+			],
+			[
+				"appl",
+				"app/templates/application.hbs"
+			],
+			[
+				"routeeve",
+				"app/scripts/routes/events.js"
+			],
+			[
+				"evet",
+				"app/templates/event.hbs"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"ge",
+				"app/styles/general.sass"
+			],
+			[
+				"bow",
+				"bower.json"
+			],
+			[
+				"nav",
+				"app/scripts/components/x-navbar.js"
+			],
+			[
+				"x-na",
+				"app/templates/components/x-navbar.hbs"
+			],
+			[
+				"bo",
+				"bower.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"x-navbar",
+				"app/scripts/components/x-navbar.hbs"
+			],
+			[
+				"route",
+				"app/scripts/router.js"
+			],
+			[
+				"routes",
+				"app/scripts/router.js"
+			],
+			[
+				"red",
+				"README.md"
+			],
+			[
+				"main",
+				"app/scripts/main.js"
+			],
+			[
+				"authcus",
+				"app/scripts/authenticators/custom.js"
+			],
+			[
+				"cust",
+				"app/scripts/authorizers/custom.js"
+			],
+			[
+				"iniapp",
+				"app/scripts/initializers/application.js"
+			],
+			[
+				"cus",
+				"app/scripts/authorizers/custom.js"
+			],
+			[
+				"cu",
+				"app/scripts/authenticators/custom.js"
+			],
+			[
+				"ini/",
+				"app/scripts/initializers/simple-auth.js"
+			],
+			[
+				"in",
+				"app/index.html"
+			],
+			[
+				"auth",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"oauth2",
+				"bower_components/ember-simple-auth/simple-auth-oauth2.js"
+			],
+			[
+				"login",
+				"app/templates/auth/login.hbs"
+			],
+			[
+				"eventshbs",
+				"app/templates/events.hbs"
+			],
+			[
+				"au",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"llogin",
+				"app/templates/auth/login.hbs"
+			],
+			[
+				"auht",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"sim",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"simpleauth",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"simpe",
+				"bower_components/ember-simple-auth/simple-auth.js"
+			],
+			[
+				"mains",
+				"app/scripts/main.js"
+			],
+			[
+				"loin",
+				"app/templates/auth/login.hbs"
+			],
+			[
+				"mainjs",
+				"app/scripts/main.js"
+			],
+			[
+				"auth.js",
+				"bower_components/ember-simple-auth/ember-simple-auth.js"
+			],
+			[
+				"me",
+				"app/templates/me.hbs"
+			],
+			[
+				"lo",
+				"app/templates/auth/login.hbs"
+			],
+			[
+				"va",
+				"app/styles/_variables.sass"
+			],
+			[
+				"authsas",
+				"app/styles/auth.sass"
+			],
+			[
+				"authhb",
+				"app/templates/auth.hbs"
+			],
+			[
+				"boer",
+				"bower.json"
+			],
+			[
+				"set",
+				"app/styles/_settings.sass"
+			],
+			[
+				"_sett",
+				"app/styles/_settings.sass"
+			],
+			[
+				"sett",
+				"app/styles/_settings.sass"
+			],
+			[
+				"mixin",
+				"app/styles/_mixins.sass"
+			],
+			[
+				"navbar",
+				"app/styles/_navbars.sass"
+			],
+			[
+				"mixins",
+				"app/styles/_mixins.sass"
+			],
+			[
+				"mehbs",
+				"app/templates/me.hbs"
+			],
+			[
+				"meindex",
+				"app/templates/me/index.hbs"
+			],
+			[
+				"mainhbs",
+				"app/templates/main.hbs"
+			],
+			[
+				"sass",
+				"app/styles/_mixins.sass"
+			],
+			[
+				"map",
+				"app/templates/event/map.hbs"
+			],
+			[
+				"_var",
+				"bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"se",
+				"app/styles/_settings.sass"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"aa",
+				"app/templates/application.hbs"
+			],
+			[
+				"evets",
+				"app/templates/events.hbs"
+			],
+			[
+				"mainssa",
+				"app/styles/main.sass"
+			],
+			[
+				"temevents",
+				"emberio/app/templates/events.hbs"
+			],
+			[
+				"grun",
+				"emberio/Gruntfile.js"
+			],
+			[
+				"_s",
+				"emberio/app/styles/_settings.sass"
+			],
+			[
+				"pa",
+				"emberio/package.json"
+			],
+			[
+				"handle",
+				"emberio/bower_components/handlebars/handlebars.js"
+			],
+			[
+				"emberjs",
+				"emberio/bower_components/ember/ember.js"
+			],
+			[
+				".js",
+				"emberio/app/scripts/main.js"
+			],
+			[
+				"_see",
+				"emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_responsive-embed.scss"
+			],
+			[
+				"pac",
+				"emberio/package.json"
+			],
+			[
+				"_se",
+				"emberio/app/styles/_settings.sass"
+			],
+			[
+				"ma",
+				"emberio/app/styles/main.sass"
+			],
+			[
+				"bootvar",
+				"public/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"javaboot",
+				"public/bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js"
+			],
+			[
+				"hel",
+				"app/views/hello.blade.php"
+			],
+			[
+				"hello",
+				"app/views/hello.blade.php"
+			],
+			[
+				"mainsass",
+				"public/app/styles/main.sass"
+			],
+			[
+				"src/illuminate/exception/exceptionserviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Exception/ExceptionServiceProvider.php"
+			],
+			[
+				"srcexcepserv",
+				"vendor/laravel/framework/src/Illuminate/Exception/ExceptionServiceProvider.php"
+			],
+			[
+				"srceliserviceprod",
+				"vendor/laravel/framework/src/Illuminate/Exception/ExceptionServiceProvider.php"
+			],
+			[
+				"hell",
+				"app/views/hello.php"
+			],
+			[
+				"colo",
+				"app/styles/colors.sass"
+			],
+			[
+				"navsa",
+				"app/styles/nav.sass"
+			],
+			[
+				"do",
+				"app/styles/dot.sass"
+			],
+			[
+				"dotjs",
+				"app/scripts/dot.js"
+			],
+			[
+				"elejs",
+				"app/bower_components/ElementTransitions.js/src/js/elementTransitions.js"
+			],
+			[
+				"elemjs",
+				"app/bower_components/ElementTransitions.js/src/js/elementTransitions.js"
+			],
+			[
+				"dotsas",
+				"app/styles/dot.sass"
+			],
+			[
+				"ele",
+				"app/bower_components/ElementTransitions.js/src/css/elementTransitions.css"
+			],
+			[
+				"elecss",
+				"app/bower_components/ElementTransitions.js/src/css/elementTransitions.css"
+			],
+			[
+				"elementtransitions",
+				"app/bower_components/ElementTransitions.js/src/js/elementTransitions.js"
+			],
+			[
+				"mainsa",
+				"app/styles/main.sass"
+			],
+			[
+				"an",
+				"app/styles/animation.css"
+			],
+			[
+				"dotsa",
+				"app/styles/dot.sass"
+			],
+			[
+				"dot",
+				"app/scripts/dot.js"
+			],
+			[
+				"ani",
+				"app/styles/animation.css"
+			],
+			[
+				"page",
+				"app/scripts/pagetransitions.js"
+			],
+			[
+				"tr",
+				"app/styles/transitions.sass"
+			],
+			[
+				"dot.js",
+				"app/scripts/dot.js"
+			],
+			[
+				"project",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/excludeFromStProject.sublime-snippet"
+			],
+			[
+				"fondsett",
+				"app/vendor/foundation/scss/_settings.scss"
+			],
+			[
+				"maste",
+				"app/views/layouts/master.blade.php"
+			],
+			[
+				"viewactive",
+				"js/app/event/index/viewActiveFilterSorting.js"
+			],
+			[
+				"viewco",
+				"js/app/event/index/viewCollection.js"
+			],
+			[
+				"viewac",
+				"js/app/event/index/viewActiveFilterSorting.js"
+			],
+			[
+				"backbone",
+				"js/vendor/backbone-amd/backbone.js"
+			],
+			[
+				"controller",
+				"js/app/event/index/controller.js"
+			],
+			[
+				"eventcollectio",
+				"gg-mobile-first/public/js/app/event/index/collection.js"
+			],
+			[
+				"evencollec",
+				"js/app/event/index/collection.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/private/var/www/dev/egam.io/egam.io.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
