@@ -1,7 +1,7 @@
 Yeomint
 =======
 
-Web Interface for [Yeoman](http://yeoman.io)
+Web interface for running [Yeoman](http://yeoman.io) generators
 
 
 By [Jody Lognoul](http://me.egam.io)

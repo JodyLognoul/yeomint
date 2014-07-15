@@ -1,0 +1,10 @@
+{
+  "name": "Yeomint",
+  "version": "0.0.1",
+  "description": "Web interface for running Yeoman generators",
+  "author": "Jody Lognoul",
+  "repository": "Narcotic/yeomint",
+  "dependencies": {
+    
+  }
+}
