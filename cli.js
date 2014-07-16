@@ -7,12 +7,14 @@ var fs = require('fs');
 var yosay = require('yosay');
 var chalk = require('chalk');
 var http = require('http');
-var open = require('open');
+var opn = require('opn');
 var isRoot = require('is-root');
 var sudoBlock = require('sudo-block');
 var nopt = require('nopt');
 var pkg = require('./package.json');
-
+var _ = require('lodash');
+var path = require('path');
+var Insight = require('insight');
 
 
 var opts = nopt({
@@ -25,6 +27,12 @@ var opts = nopt({
 
 var args = opts.argv.remain;
 var cmd = args[0];
+
+var insight = new Insight({
+  trackingCode: 'UA-31537568-1',
+  packageName: pkg.name,
+  packageVersion: pkg.version
+});
 
 function rootCheck() {
   if (isRoot() && process.setuid) {
@@ -45,7 +53,7 @@ function rootCheck() {
 		Reading material:\n\
 		http://www.joyent.com/blog/installing-node-and-npm\n\
 		https://gist.github.com/isaacs/579814\n';
-		console.log('ici');
+
   sudoBlock(msg);
 }
 function runServer() {
@@ -59,20 +67,59 @@ function runServer() {
 }
 
 function openBrowser() {
-	open("http://127.0.0.1:1337", "Google Chrome Canary.app");
+	opn("http://127.0.0.1:1337", "Google Chrome Canary.app");
+}
+
+function initServer() {
+	runServer();
+	openBrowser();
 }
 
 function init() {
-	runServer();
-	// openBrowser();
+	var env = require('yeoman-generator')();
+	
+	// alias any single namespace to `*:all` and `webapp` namespace specifically
+  // to webapp:app.
+  env.alias(/^([^:]+)$/, '$1:all');
+  env.alias(/^([^:]+)$/, '$1:app');
+
+  // lookup for every namespaces, within the environments.paths and lookups
+  env.lookup();
+
+  // list generators
+  if (opts.generators) {
+    return console.log(_.uniq(Object.keys(env.getGeneratorsMeta()).map(function (el) {
+      return el.split(':')[0];
+    })).join('\n'));
+  }
+
+  env.on('end', function () {
+    console.log('Done running sir');
+  });
+  
+  env.on('error', function (err) {
+    console.error('Error', process.argv.slice(2).join(' '), '\n');
+    console.error(opts.debug ? err.stack : err.message);
+    process.exit(err.code || 1);
+  });
+
+  // Register the `yo yo` generator.
+  if (!cmd) {
+    if (opts.help) {
+      return console.log(env.help('yo'));
+    }
+
+    env.register(path.resolve(__dirname, './yoyo'), 'yo');
+    args = ['yo'];
+    // make the insight instance available in `yoyo`
+    opts = { insight: insight };
+  }
+
+	env.run(args, opts);
 }
 
 /*==========  pre() function  ==========*/
 function pre() {
-
-	// Say hello
-	console.log(yosay('Hello, and welcome to my '+ chalk.red('fantastic generator') + ' full of whimsy and bubble gum!'));
-
 
   if (opts.version) {
     return console.log(pkg.version);
@@ -83,7 +130,8 @@ function pre() {
     return require('./scripts/doctor');
   }
 
-  init();
+  // init();
+  initServer();
 }
 
 rootCheck();
