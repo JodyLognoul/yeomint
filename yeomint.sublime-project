@@ -7,5 +7,9 @@
 			"file_exclude_patterns": [".*"],
 	        "folder_exclude_patterns": [".*"]
 		}
-	]
+	],
+	"settings":
+    {
+   		"tab_size": 2
+    },
 }

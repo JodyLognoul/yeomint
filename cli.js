@@ -3,18 +3,19 @@
 
 'use strict';
 
-var fs = require('fs');
-var yosay = require('yosay');
-var chalk = require('chalk');
-var http = require('http');
-var opn = require('opn');
-var isRoot = require('is-root');
+var _         = require('lodash');
+var chalk     = require('chalk');
+var express   = require('express');
+var fs        = require('fs');
+var http      = require('http');
+var Insight   = require('insight');
+var isRoot    = require('is-root');
+var nopt      = require('nopt');
+var opn       = require('opn');
+var path      = require('path');
+var pkg       = require('./package.json');
 var sudoBlock = require('sudo-block');
-var nopt = require('nopt');
-var pkg = require('./package.json');
-var _ = require('lodash');
-var path = require('path');
-var Insight = require('insight');
+var yosay     = require('yosay');
 
 
 var opts = nopt({
@@ -57,11 +58,21 @@ function rootCheck() {
   sudoBlock(msg);
 }
 function runServer() {
-	/*==========  Start Webserver  ==========*/
-	http.createServer(function (req, res) {
-	  res.writeHead(200, {'Content-Type': 'text/plain'});
-	  res.end('Hello World\n');
-	}).listen(1337, '127.0.0.1');
+	var app = express();
+
+	app.use(app.router);	
+	app.use(express.static(__dirname + '/public'));
+	app.use(express.errorHandler());
+
+	app.set('views', __dirname);
+	app.set('view engine', 'jade');
+
+	
+	app.get('/', function (req, res) {
+	  res.render('views/index');
+	});
+
+	app.listen(1337);
 
 	console.log(chalk.blue('Server running at http://127.0.0.1:1337/'));
 }
@@ -72,7 +83,7 @@ function openBrowser() {
 
 function initServer() {
 	runServer();
-	openBrowser();
+	// openBrowser();
 }
 
 function init() {
