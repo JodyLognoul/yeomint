@@ -67,20 +67,9 @@ function runServer() {
 	app.set('views', __dirname);
 	app.set('view engine', 'jade');
 
-	function User(name, email) {
-	  this.name = name;
-	  this.email = email;
-	}
-
-	// Dummy users
-	var users = [
-	    new User('tj', 'tj@vision-media.ca'),
-	  	new User('ciaran', 'ciaranj@gmail.com'),
-	  	new User('aaron', 'aaron.heckmann+github@gmail.com')
-	];
-
+	
 	app.get('/', function (req, res) {
-	  res.render('views/index', { users: users });
+	  res.render('views/index');
 	});
 
 	app.listen(1337);
