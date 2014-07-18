@@ -59,6 +59,30 @@ function rootCheck() {
 }
 function runServer() {
 	var app = express();
+	var env = require('yeoman-generator')();
+	var io  = require('socket.io');
+
+	// alias any single namespace to `*:all` and `webapp` namespace specifically
+  // to webapp:app.
+  env.alias(/^([^:]+)$/, '$1:all');
+  env.alias(/^([^:]+)$/, '$1:app');
+
+  // lookup for every namespaces, within the environments.paths and lookups
+  env.lookup();
+
+  function Generator(name) {
+	  this.name = name;
+	}
+
+
+
+	// Dummy users
+	var generators = [
+	  new Generator('emberJS - generator'),
+	  new Generator('backboneJS - generator'),
+	  new Generator('webapp - generator')
+	];
+
 
 	app.use(app.router);	
 	app.use(express.static(__dirname + '/public'));
@@ -66,10 +90,9 @@ function runServer() {
 
 	app.set('views', __dirname);
 	app.set('view engine', 'jade');
-
 	
 	app.get('/', function (req, res) {
-	  res.render('views/index');
+	  res.render('views/index',{ generators : generators });
 	});
 
 	app.listen(1337);
@@ -83,7 +106,7 @@ function openBrowser() {
 
 function initServer() {
 	runServer();
-	// openBrowser();
+	openBrowser();
 }
 
 function init() {

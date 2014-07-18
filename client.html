@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yeomint - Client</title>
+	<link rel="stylesheet" href="public/css/client.style.css">
+</head>
+<body>
+	<br>
+	<div class="dest"></div>
+	<div class="window browser fading">
+        <div class="header">
+            <span class="bullet bullet-red"></span><span class="bullet bullet-yellow"></span><span class="bullet bullet-green"></span><span class="title"><span class="scheme">https://</span>your-node-app.com</span>
+        </div>
+        <div class="body">
+            <p>Yeoman output <b>☃</b></b>
+            </p>
+            <ul id="tweets" class="tweets">
+                <li class="new">
+									<img src="https://pbs.twimg.com/profile_images/479307760815702016/ytjsSXzv_normal.png">
+                	<span class="tweet">Modis #job: Web Developer (STRONG <b>JAVASCRIPT</b>/JQUERY) in #SanFrancisco http://t.co/iRqswoRKl4 http://t.co/5sLAOGCyoe</span>
+                	<a class="time" href="#" target="_blank">now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<script src="bower_components/socket.io-client/socket.io.js"></script>
+	<script>
+		var socket = io('http://localhost:31337');
+		socket.on('command',function(data){
+			console.log('command!');
+			var elem = document.createElement("li"); //class new
+			elem.className = 'new';
+			elem.innerHTML = '<img src="https://pbs.twimg.com/profile_images/479307760815702016/ytjsSXzv_normal.png"><span class="tweet">' + data.title + '</span><a class="time" href="#" target="_blank">now</a>';
+
+			document.getElementById('tweets').insertBefore(elem, document.getElementsByClassName('new')[0]);
+			console.log('add elem');
+		});
+	</script>
+</body>
+</html>

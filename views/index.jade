@@ -2,4 +2,10 @@ extends layout
 
 block content
 	include nav
-	h1 Content
+	br
+	br
+	h1 Generators
+	#generators
+		for generator in generators
+			.generator
+				h2= generator.name
