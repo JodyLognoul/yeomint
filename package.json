@@ -25,6 +25,7 @@
     "express": "3.x",
     "jade": "1.4.0",
     "socket.io": "1.0.6",
-    "cors" : "2.4.1"
+    "cors" : "2.4.1",
+    "inquirer": "0.5.1"
   }
 }
