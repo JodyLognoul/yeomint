@@ -3,16 +3,16 @@
 
 'use strict';
 
-var async = require('async');
-var opn = require('opn');
-var yo = require('yeoman-generator');
-var yosay = require('yosay');
-var util = require('util');
-var path = require('path');
+var async          = require('async');
+var opn            = require('opn');
+var yo             = require('../yeomint-generator');
+var yosay          = require('yosay');
+var util           = require('util');
+var path           = require('path');
 var updateNotifier = require('update-notifier');
-var chalk = require('chalk');
-var findup = require('findup');
-var fullname = require('fullname');
+var chalk          = require('chalk');
+var findup         = require('findup');
+var fullname       = require('fullname');
 
 
 // The `yo yo` generator provides users with a few common, helpful commands.

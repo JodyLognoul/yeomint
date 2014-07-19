@@ -164,8 +164,8 @@ function pre() {
     return require('./scripts/doctor');
   }
 
-  // init();
-  initServer();
+  init();
+  // initServer();
 }
 
 rootCheck();

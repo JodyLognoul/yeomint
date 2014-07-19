@@ -4,7 +4,7 @@ Yeomint
 Web interface for running [Yeoman](http://yeoman.io) generators
 
 **Current Git Flow Feature**
-> git flow feature finish e_prompt_e_console
+> git flow feature finish use_of_yeomint-generator
 
 
           
@@ -30,6 +30,12 @@ With Yeomint all the generators would depend on [yeomINT-generator]()
     "yeomint-generator": "~0.1.0",
   },
 ```
+## The green line
+
++ run Express Http Server
++ open browser with the socket.io.js client
+	+ the web page is listening to the server
+
 
 By [Jody Lognoul](http://me.egam.io)
 
