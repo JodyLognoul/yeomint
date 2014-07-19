@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"props"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"ce",
 				"center"
 			],
@@ -356,10 +364,6 @@
 				"attachTo"
 			],
 			[
-				"pro",
-				"proxy"
-			],
-			[
 				"plus",
 				"plusElemClass"
 			],
@@ -510,20 +514,24 @@
 			[
 				"Inp",
 				"Input-all	Input-all"
-			],
-			[
-				"Shema",
-				"Schema-drop	Schema-drop"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "socket.js",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 418,
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/yeoman-generator/lib/base.js",
+			"settings":
+			{
+				"buffer_size": 19530,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,7 @@
 			"file": "client.html",
 			"settings":
 			{
-				"buffer_size": 580,
+				"buffer_size": 1700,
 				"line_ending": "Unix"
 			}
 		}
@@ -543,20 +551,56 @@
 		"selected_items":
 		[
 			[
-				"rein",
-				"Indentation: Reindent Lines"
+				"prev",
+				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
-				"ali",
-				"AlignTab: Live Preview Mode"
+				"bro",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"brow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
+				"remo",
 				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"brows",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
 			],
 			[
 				"delete",
@@ -595,16 +639,8 @@
 				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
-				"brow",
-				"Markdown Preview: Python Markdown: Preview in Browser"
-			],
-			[
 				"prew",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
-			],
-			[
-				"bro",
-				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
 				"user",
@@ -619,20 +655,8 @@
 				"SublimeLinter: Choose Gutter Theme"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"rem",
-				"Package Control: Remove Package"
-			],
-			[
 				"linte",
 				"SublimeLinter: Enable Linter"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"markdow",
@@ -708,10 +732,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -1041,21 +1061,9 @@
 			[
 				"insa",
 				"Package Control: Install Package"
-			],
-			[
-				"symfony",
-				"Snippet: Symfony2 / Controller / Get Entity Manager"
-			],
-			[
-				"css",
-				"Snippet: CSS - :active"
-			],
-			[
-				"giest",
-				"Gist: Open Gist"
 			]
 		],
-		"width": 512.0
+		"width": 655.0
 	},
 	"console":
 	{
@@ -1076,20 +1084,43 @@
 	},
 	"file_history":
 	[
+		"/private/var/www/dev/yeomint/prompt.js",
+		"/private/var/www/dev/yeomint/client.html",
+		"/private/var/www/dev/yeomint/node_modules/insight/node_modules/request/tests/test-httpModule.js",
+		"/private/var/www/dev/yeomint/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/string/#/hyphen-to-camel.js",
+		"/private/var/www/dev/yeomint/views/header.jade",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Markdown Extended.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/private/var/www/dev/yeomint/README.md",
+		"/private/var/www/dev/yeomint/socket.js",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Installed Packages/Monokai Extended.sublime-package",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/private/var/www/dev/yeomint/bower_components/socket.io-client/Makefile",
+		"/private/var/www/dev/yeomint/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/ext/max-age.js",
+		"/private/var/www/dev/yeomint/node_modules/yeoman-generator/node_modules/glob/test/mark.js",
+		"/private/var/www/dev/yeomint/package.json",
 		"/private/var/www/dev/yeomint/public/css/client.style.css",
+		"/private/var/www/dev/yeomint/node_modules/express/node_modules/connect/node_modules/errorhandler/public/style.css",
+		"/private/var/www/dev/yeomint/node_modules/express/node_modules/connect/node_modules/serve-index/public/style.css",
+		"/private/var/www/dev/yeomint/node_modules/sudo-block/node_modules/chalk/node_modules/ansi-styles/ansi-styles.js",
+		"/private/var/www/dev/yeomint/node_modules/yeoman-generator/node_modules/findup-sync/test/findup-sync_test.js",
+		"/private/var/www/dev/yeomint/yeomint.sublime-project",
+		"/private/var/www/dev/yeomint/node_modules/insight/lib/providers.js",
+		"/private/var/www/dev/yeomint/node_modules/yeoman-generator/node_modules/glob/test/pause-resume.js",
 		"/private/var/www/dev/yeomint/views/index.jade",
 		"/private/var/www/dev/yeomint/views/nav.jade",
-		"/private/var/www/dev/yeomint/package.json",
 		"/private/var/www/dev/yeomint/cli.js",
-		"/private/var/www/dev/yeomint/client.html",
 		"/private/var/www/dev/yeomint/node_modules/fullname/cli.js",
 		"/private/var/www/dev/yeomint/node_modules/opn/cli.js",
 		"/private/var/www/dev/yeomint/node_modules/yosay/cli.js",
-		"/private/var/www/dev/yeomint/node_modules/express/node_modules/connect/node_modules/errorhandler/public/style.css",
-		"/private/var/www/dev/yeomint/node_modules/yeoman-generator/node_modules/findup-sync/test/findup-sync_test.js",
 		"/private/var/www/dev/yeomint/bower.json",
-		"/private/var/www/dev/yeomint/README.md",
-		"/private/var/www/dev/yeomint/views/header.jade",
 		"/private/var/www/dev/yeomint/public/css/yeoman.io/codelab.css",
 		"/private/var/www/dev/yeomint/public/css/yeoman.io.normalize.css",
 		"/private/var/www/dev/yeomint/public/css/yeoman.io.prettyfy.css",
@@ -1098,7 +1129,6 @@
 		"/private/var/www/dev/yeomint/public/css/style.css",
 		"/private/var/www/dev/yeomint/node_modules/express/node_modules/connect/examples/cookieSession.js",
 		"/private/var/www/dev/yeomint/node_modules/yeoman-generator/node_modules/cheerio/lib/api/css.js",
-		"/private/var/www/dev/yeomint/yeomint.sublime-project",
 		"/private/var/www/dev/yeomint/views/user.jade",
 		"/private/var/www/dev/yeomint/public/stylesheet/style.css",
 		"/private/var/www/dev/yeomint/views/style.css",
@@ -1181,29 +1211,7 @@
 		"/private/var/www/dev/emberio/app/scripts/routes/auth_login.js",
 		"/private/var/www/dev/emberio/app/scripts/routes/home.js",
 		"/private/var/www/dev/emberio/app/scripts/controllers/auth_login.js",
-		"/private/var/www/dev/emberio/app/styles/_settings.sass",
-		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/CHANGELOG.md",
-		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth-cookie-store.js",
-		"/private/var/www/dev/emberio/bower_components/jquery/src/core/init.js",
-		"/private/var/www/dev/emberio/package.json",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/private/var/www/dev/emberio/bower_components/normalize-css/normalize.css",
-		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_nav-divider.scss",
-		"/private/var/www/dev/emberio/.bowerrc",
-		"/private/var/www/dev/emberio/app/templates/auth/error.hbs",
-		"/private/var/www/dev/emberio/app/templates/auth/login.hbs",
-		"/private/var/www/dev/emberio/bower_components/handlebars/handlebars.js",
-		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
-		"/Users/jody/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
-		"/private/var/www/dev/emberio/bower_components/ember-simple-auth/simple-auth-oauth2.js",
-		"/private/var/www/dev/emberio/bower_components/ember/README.md",
-		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_pagination.scss",
-		"/private/var/www/dev/emberio/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss"
+		"/private/var/www/dev/emberio/app/styles/_settings.sass"
 	],
 	"find":
 	{
@@ -1296,6 +1304,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"`yeoman-generator`",
+			"xxx-generator",
+			"yeoman",
+			"300",
+			"400",
+			"height",
+			"400px",
 			"express",
 			", '",
 			"User",
@@ -1416,14 +1431,7 @@
 			"action authenticate ",
 			"authenticate ",
 			"authenticate",
-			"SimpleAuth",
-			"simple-auth/authenticators/base",
-			"Base",
-			"authenticationRoute",
-			"simple-auth/utils/get-global-config",
-			"get-global-config",
-			"getGlobalConfig",
-			"authenticationRoute"
+			"SimpleAuth"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1474,24 +1482,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "socket.js",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 418,
+						"buffer_size": 1069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								312,
-								312
+								1027,
+								1027
 							]
 						],
 						"settings":
@@ -1503,18 +1511,26 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1523,28 +1539,97 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"parser": "markdown",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "node_modules/yeoman-generator/lib/base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5247,
+								5247
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
-								"bh_regex_close"
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
 							],
-							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1553,24 +1638,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "client.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 580,
+						"buffer_size": 1700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								564,
-								564
+								1012,
+								1012
 							]
 						],
 						"settings":
@@ -1582,18 +1667,26 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1602,36 +1695,26 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
 							],
-							"history_list_is_closing": true,
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 248.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1696,6 +1779,30 @@
 		"selected_items":
 		[
 			[
+				"html",
+				"client.html"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"",
+				"socket.js"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"pro",
+				"yeomint.sublime-project"
+			],
+			[
 				"pa",
 				"package.json"
 			],
@@ -1708,20 +1815,8 @@
 				"public/css/client.style.css"
 			],
 			[
-				"read",
-				"README.md"
-			],
-			[
 				"pack",
 				"package.json"
-			],
-			[
-				"re",
-				"README.md"
-			],
-			[
-				"rea",
-				"README.md"
 			],
 			[
 				"sty",
@@ -2194,18 +2289,6 @@
 			[
 				"project",
 				"~/Library/Application Support/Sublime Text 3/Packages/User/excludeFromStProject.sublime-snippet"
-			],
-			[
-				"fondsett",
-				"app/vendor/foundation/scss/_settings.scss"
-			],
-			[
-				"maste",
-				"app/views/layouts/master.blade.php"
-			],
-			[
-				"viewactive",
-				"js/app/event/index/viewActiveFilterSorting.js"
 			]
 		],
 		"width": 0.0
@@ -2238,9 +2321,9 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
