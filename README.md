@@ -3,9 +3,10 @@ Yeomint
 
 Web interface for running [Yeoman](http://yeoman.io) generators
 
-## Current Git Flow Feature
+**Current Git Flow Feature**
+> git flow feature finish e_prompt_e_console
 
-git flow feature finish e_prompt_e_console
+
           
 ## Description 
 
@@ -29,14 +30,6 @@ With Yeomint all the generators would depend on [yeomINT-generator]()
     "yeomint-generator": "~0.1.0",
   },
 ```
-
-### yeomint-generator
-
-#### Differences with [yeoman-generator]()
-
-* prompt (define by [inquirer](https://www.npmjs.org/package/inquirer))
-
-
 
 By [Jody Lognoul](http://me.egam.io)
 
