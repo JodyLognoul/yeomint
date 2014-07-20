@@ -200,7 +200,7 @@ Navigation
   right: 0;
   width: 3em;
   height: 3em;
-  background: url(/assets/img/icon-menu.png) no-repeat 50% 50%;
+  background: url(http://yeoman.io/assets/img/icon-menu.1a2f.png) no-repeat 50% 50%;
 }
 
 .mobile-menu-toggle:active, .mobile-menu-toggle:focus {

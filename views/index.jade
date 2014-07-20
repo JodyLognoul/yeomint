@@ -1,11 +1,37 @@
 extends layout
 
 block content
-	include nav
-	br
-	br
-	h1 Generators
-	#generators
-		for generator in generators
-			.generator
-				h2= generator.name
+  include nav
+  br
+  br
+  br  
+  .window.browser.fading
+    .header
+        span.bullet.bullet-red
+        span.bullet.bullet-yellow
+        span.bullet.bullet-green
+        span.title
+          span.scheme https://
+          | your-node-app.com
+      .body
+        p
+          | Yeoman output
+          b ☃
+        ul#tweets.tweets
+          li.new
+            img(src='https://pbs.twimg.com/profile_images/479307760815702016/ytjsSXzv_normal.png')
+            span.tweet LOL
+            a.time(href='#', target='_blank') now
+            
+  script(src="bower_components/socket.io-client/socket.io.js")
+  script(type='text/javascript').
+    var socket = io('http://localhost:31337');
+    socket.on('command',function(data){
+      console.log('command!');
+      var elem = document.createElement("li"); //class new
+      elem.className = 'new';
+      elem.innerHTML = '<img src="https://pbs.twimg.com/profile_images/479307760815702016/ytjsSXzv_normal.png"><span class="tweet">' + data.title + '</span><a class="time" href="#" target="_blank">now</a>';
+
+      document.getElementById('tweets').insertBefore(elem, document.getElementsByClassName('new')[0]);
+      console.log('add elem');
+    });     

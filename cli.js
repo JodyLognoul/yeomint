@@ -3,20 +3,20 @@
 
 'use strict';
 
-var _         = require('lodash');
-var chalk     = require('chalk');
-var express   = require('express');
-var fs        = require('fs');
-var http      = require('http');
-var Insight   = require('insight');
-var isRoot    = require('is-root');
-var nopt      = require('nopt');
-var opn       = require('opn');
-var path      = require('path');
-var pkg       = require('./package.json');
-var sudoBlock = require('sudo-block');
-var yosay     = require('yosay');
-
+var _            = require('lodash');
+var chalk        = require('chalk');
+var express      = require('express');
+var fs           = require('fs');
+var http         = require('http');
+var Insight      = require('insight');
+var isRoot       = require('is-root');
+var nopt         = require('nopt');
+var opn          = require('opn');
+var path         = require('path');
+var pkg          = require('./package.json');
+var sudoBlock    = require('sudo-block');
+var yosay        = require('yosay');
+var events       = require('events');
 
 var opts = nopt({
   help: Boolean,
@@ -34,6 +34,8 @@ var insight = new Insight({
   packageName: pkg.name,
   packageVersion: pkg.version
 });
+
+var eventEmitter = new events.EventEmitter();
 
 function rootCheck() {
   if (isRoot() && process.setuid) {
@@ -58,31 +60,11 @@ function rootCheck() {
   sudoBlock(msg);
 }
 function runServer() {
-	var app = express();
-	var env = require('yeoman-generator')();
-	var io  = require('socket.io');
+  var app    = require('express')();
+  var server = require('http').Server(app);
+  var io     = require('socket.io')(server);
 
-	// alias any single namespace to `*:all` and `webapp` namespace specifically
-  // to webapp:app.
-  env.alias(/^([^:]+)$/, '$1:all');
-  env.alias(/^([^:]+)$/, '$1:app');
-
-  // lookup for every namespaces, within the environments.paths and lookups
-  env.lookup();
-
-  function Generator(name) {
-	  this.name = name;
-	}
-
-
-
-	// Dummy users
-	var generators = [
-	  new Generator('emberJS - generator'),
-	  new Generator('backboneJS - generator'),
-	  new Generator('webapp - generator')
-	];
-
+  server.listen(31337);
 
 	app.use(app.router);	
 	app.use(express.static(__dirname + '/public'));
@@ -92,25 +74,23 @@ function runServer() {
 	app.set('view engine', 'jade');
 	
 	app.get('/', function (req, res) {
-	  res.render('views/index',{ generators : generators });
+	  res.render('views/index');
 	});
 
-	app.listen(1337);
+	console.log(chalk.blue('Server running at http://127.0.0.1:31337/'));
+}
 
-	console.log(chalk.blue('Server running at http://127.0.0.1:1337/'));
+function runClient(){
+  openBrowser();  
 }
 
 function openBrowser() {
-	opn("http://127.0.0.1:1337", "Google Chrome Canary.app");
+	opn("http://127.0.0.1:31337", "Google Chrome Canary.app");
 }
 
-function initServer() {
-	runServer();
-	openBrowser();
-}
-
-function init() {
-	var env = require('yeoman-generator')();
+function initYo() {
+  var yeoman  = require('yeoman-generator');
+	var env = yeoman();
 	
 	// alias any single namespace to `*:all` and `webapp` namespace specifically
   // to webapp:app.
@@ -136,6 +116,12 @@ function init() {
     console.error(opts.debug ? err.stack : err.message);
     process.exit(err.code || 1);
   });
+  
+  // Yeomint - Event
+  env.on('ev_prompt', function(stream){
+    console.log(stream);
+  });
+
 
   // Register the `yo yo` generator.
   if (!cmd) {
@@ -152,7 +138,6 @@ function init() {
 	env.run(args, opts);
 }
 
-/*==========  pre() function  ==========*/
 function pre() {
 
   if (opts.version) {
@@ -163,9 +148,10 @@ function pre() {
   if (cmd === 'doctor') {
     return require('./scripts/doctor');
   }
+  // runServer();
+  // runClient();
 
-  init();
-  // initServer();
+  initYo();
 }
 
 rootCheck();

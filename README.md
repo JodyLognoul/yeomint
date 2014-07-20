@@ -4,7 +4,7 @@ Yeomint
 Web interface for running [Yeoman](http://yeoman.io) generators
 
 **Current Git Flow Feature**
-> git flow feature finish use_of_yeomint-generator
+> git flow feature finish scaffolding_yeomint
 
 
           
