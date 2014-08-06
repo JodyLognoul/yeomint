@@ -107,6 +107,8 @@ function initYo() {
     })).join('\n'));
   }
 
+  yeoman.generators.Base.prototype.prompt = null;
+
   env.on('end', function () {
     console.log('Done running sir');
   });
@@ -119,7 +121,7 @@ function initYo() {
   
   // Yeomint - Event
   env.on('ev_prompt', function(stream){
-    console.log(stream);
+    console.log('ev_prompt' + stream);
   });
 
 
@@ -148,8 +150,8 @@ function pre() {
   if (cmd === 'doctor') {
     return require('./scripts/doctor');
   }
-  // runServer();
-  // runClient();
+  runServer();
+  runClient();
 
   initYo();
 }
